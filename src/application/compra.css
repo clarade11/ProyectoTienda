@@ -1,0 +1,33 @@
+#panel{
+	-fx-background-image:url(/docs/comprafondo.jpg) ;
+}
+
+/*table view */
+#tableView{
+	-fx-background-color:#D1BAA4;
+}
+
+#tcProducto{
+	-fx-background-color:#CA9B6D;
+	-fx-font-weight:bold;
+}
+#tcPrecio{
+	-fx-background-color:#CA9B6D;
+	-fx-font-weight:bold;
+}
+/*boton */
+#botonComprar{
+	-fx-background-radius: 10 10 10 10;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-color:#CA9B6D;
+}
+/*textos */
+#lbTotal{
+	-fx-font-weight:bold;
+	-fx-font-size:30px;
+}
+
+#checkRegalo{
+	-fx-color:#CA9B6D;
+	-fx-font-weight:bold;
+}

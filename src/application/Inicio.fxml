@@ -1,0 +1,325 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.control.TableColumn?>
+<?import javafx.scene.control.TableView?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<Pane fx:id="pane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="454.0" prefWidth="642.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="controller.InicioController">
+   <children>
+      <TableView fx:id="tableView" prefHeight="454.0" prefWidth="121.0">
+        <columns>
+          <TableColumn fx:id="tcCategoria" prefWidth="120.0" text="CATEGORIA" />
+        </columns>
+      </TableView>
+      <Text fx:id="titulo" fill="#0b3861" layoutX="241.0" layoutY="36.0" strokeType="OUTSIDE" strokeWidth="0.0" text="AKKALA " textAlignment="CENTER" wrappingWidth="249.0">
+         <font>
+            <Font size="24.0" />
+         </font>
+      </Text>
+      <Button fx:id="botonPerfil" layoutX="585.0" layoutY="2.0" mnemonicParsing="false" onAction="#perfil" text="Perfil" />
+      <Button fx:id="botonCarrito" layoutX="525.0" layoutY="2.0" mnemonicParsing="false" onAction="#compra" text="Carrito" />
+      <ScrollPane fx:id="scrollpane" hbarPolicy="NEVER" layoutX="142.0" layoutY="62.0" prefHeight="362.0" prefWidth="466.0" vbarPolicy="ALWAYS">
+         <content>
+            <GridPane fx:id="gridpane" prefHeight="500.0" prefWidth="480.0">
+              <columnConstraints>
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+                <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+              </columnConstraints>
+              <rowConstraints>
+                <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="144.0" minHeight="10.0" prefHeight="144.0" vgrow="SOMETIMES" />
+                <RowConstraints maxHeight="129.0" minHeight="10.0" prefHeight="129.0" vgrow="SOMETIMES" />
+                  <RowConstraints maxHeight="116.0" minHeight="110.0" prefHeight="110.0" />
+              </rowConstraints>
+               <children>
+                  <ImageView fx:id="img1" fitHeight="71.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true">
+                     <GridPane.margin>
+                        <Insets bottom="50.0" left="67.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <Text fx:id="text1" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="241.13671875">
+                     <GridPane.margin>
+                        <Insets top="48.0" />
+                     </GridPane.margin>
+                  </Text>
+           
+                        <ImageView fx:id="img2" fitHeight="71.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="50.0" left="67.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <Text fx:id="text2" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="241.13671875" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets top="48.0" />
+                     </GridPane.margin>
+                  </Text>
+                  
+                         <ImageView fx:id="img4" fitHeight="71.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="50.0" left="67.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <Text fx:id="text4" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="241.13671875" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets top="48.0" />
+                     </GridPane.margin>
+                  </Text>
+                  
+                         <ImageView fx:id="img3" fitHeight="71.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="50.0" left="67.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <Text fx:id="text3" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="241.13671875" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets top="48.0" />
+                     </GridPane.margin>
+                  </Text>
+                  
+                        <ImageView fx:id="img5" fitHeight="71.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="50.0" left="67.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <Text fx:id="text5" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="241.13671875" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets top="48.0" />
+                     </GridPane.margin>
+                  </Text>
+                  
+                        <ImageView fx:id="img6" fitHeight="71.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="50.0" left="67.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <Text fx:id="text6" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="241.13671875" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets top="48.0" />
+                     </GridPane.margin>
+                  </Text>
+                  
+                        <ImageView fx:id="img7" fitHeight="71.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="50.0" left="67.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <Text fx:id="text7" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="241.13671875" GridPane.columnIndex="0" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets top="48.0" />
+                     </GridPane.margin>
+                  </Text>
+                  
+                        <ImageView fx:id="img8" fitHeight="71.0" fitWidth="104.0" pickOnBounds="true" preserveRatio="true" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="50.0" left="67.0" />
+                     </GridPane.margin>
+                  </ImageView>
+                  <Text fx:id="text8" strokeType="OUTSIDE" strokeWidth="0.0" textAlignment="CENTER" wrappingWidth="241.13671875" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets top="48.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <TextField fx:id="tfCant1" text="0">
+                     <GridPane.margin>
+                        <Insets left="120.0" right="90.0" top="90.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cantidad:">
+                     <GridPane.margin>
+                        <Insets left="60.0" top="90.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Button fx:id="an1" mnemonicParsing="false" onAction="#anadirCarrito1" text="Añadir">
+                     <GridPane.margin>
+                        <Insets left="150.0" right="40.0" top="90.0" />
+                     </GridPane.margin>
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                  </Button>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cantidad:" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets left="60.0" top="90.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cantidad:" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="60.0" top="90.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cantidad:" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="60.0" top="90.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cantidad:" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="60.0" top="90.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cantidad:" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="60.0" top="90.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cantidad:" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets left="60.0" top="90.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text strokeType="OUTSIDE" strokeWidth="0.0" text="Cantidad:" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets left="60.0" top="90.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <TextField fx:id="tfCant2" text="0" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets left="120.0" right="90.0" top="90.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField fx:id="tfCant3" text="0" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="120.0" right="90.0" top="90.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField fx:id="tfCant4" text="0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets left="120.0" right="90.0" top="90.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField fx:id="tfCant5" text="0" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="120.0" right="90.0" top="90.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField fx:id="tfCant6" text="0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets left="120.0" right="90.0" top="90.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField fx:id="tfCant7" text="0" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets left="120.0" right="90.0" top="90.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <TextField fx:id="tfCant8" text="0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets left="120.0" right="90.0" top="90.0" />
+                     </GridPane.margin>
+                  </TextField>
+                  <Button fx:id="an2" mnemonicParsing="false" onAction="#anadirCarrito2" text="Añadir" GridPane.columnIndex="1">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="150.0" right="40.0" top="90.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="an3" mnemonicParsing="false" onAction="#anadirCarrito3" text="Añadir" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="150.0" right="40.0" top="90.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="an4" mnemonicParsing="false" onAction="#anadirCarrito4" text="Añadir" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="150.0" right="40.0" top="90.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="an5" mnemonicParsing="false" onAction="#anadirCarrito5" text="Añadir" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="150.0" right="40.0" top="90.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="an6" mnemonicParsing="false" onAction="#anadirCarrito6" text="Añadir" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="150.0" right="40.0" top="90.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="an7" mnemonicParsing="false" onAction="#anadirCarrito7" text="Añadir" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="150.0" right="40.0" top="90.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Button fx:id="an8" mnemonicParsing="false" onAction="#anadirCarrito8" text="Añadir" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <font>
+                        <Font size="10.0" />
+                     </font>
+                     <GridPane.margin>
+                        <Insets left="150.0" right="40.0" top="90.0" />
+                     </GridPane.margin>
+                  </Button>
+                  <Text fx:id="prec1" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0">
+                     <GridPane.margin>
+                        <Insets bottom="80.0" left="4.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text fx:id="prec2" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="90.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text fx:id="prec3" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="90.0" left="4.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text fx:id="prec4" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="1">
+                     <GridPane.margin>
+                        <Insets bottom="90.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text fx:id="prec5" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="90.0" left="4.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text fx:id="prec6" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="2">
+                     <GridPane.margin>
+                        <Insets bottom="90.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text fx:id="prec7" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="90.0" left="4.0" />
+                     </GridPane.margin>
+                  </Text>
+                  <Text fx:id="prec8" fill="RED" strokeType="OUTSIDE" strokeWidth="0.0" GridPane.columnIndex="1" GridPane.rowIndex="3">
+                     <GridPane.margin>
+                        <Insets bottom="90.0" />
+                     </GridPane.margin>
+                  </Text>
+               </children>
+               <padding>
+                  <Insets bottom="10.0" top="10.0" />
+               </padding>
+               
+                  </GridPane>
+         </content>
+      </ScrollPane>
+   </children>
+</Pane>

@@ -1,0 +1,46 @@
+#gridpane{
+	-fx-background-image:url(/docs/fondo1.jpg) ;
+}
+/*label */
+#lbNombre{
+	-fx-font-weight:bold;
+	-fx-font-size:18px;
+}
+#lbApellido{
+	-fx-font-weight:bold;
+	-fx-font-size:18px;
+}
+#lbSexo{
+	-fx-font-weight:bold;
+	-fx-font-size:18px;
+}
+/*textfield */
+#tfNombre{
+	-fx-background-color:#B4FCC9;
+}
+#tfApellido{
+	-fx-background-color:#B4FCC9;
+}
+/*radiobutton */
+#rbMujer{
+	-fx-color:#B4FCC9;
+}	
+#rbHombre{
+	-fx-color:#B4FCC9;
+}
+/*botones */
+#botonVolver{
+	-fx-background-radius: 10 10 10 10;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-color:#B4FCC9;
+}
+#botonEditar{
+	-fx-background-radius: 10 10 10 10;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-color:#B4FCC9;
+}
+#botonLimpiar{
+	-fx-background-radius: 10 10 10 10;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-color:#B4FCC9;
+}

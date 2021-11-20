@@ -1,0 +1,183 @@
+#pane{
+	-fx-background-image: url("/docs/llanuraAkkala.png");
+
+}
+
+#tableView{
+	-fx-background-color: #FF8000;
+}
+#tcCategoria{
+	-fx-background-color: #FF8000;
+}
+#tcCategoria:hover{
+	-fx-font-size: 16px;
+	-fx-text-fill:#2ECCFA;
+	-fx-font-weight:bold;
+}
+/*botones */
+#botonPerfil{
+	-fx-background-radius: 10 10 10 10;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-color:#DA9B6F;
+}
+#botonCarrito{
+	-fx-background-radius: 10 10 10 10;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-color:#DA9B6F;
+}
+#an1{
+	
+	-fx-background-radius: 10 10 10 10;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-color:#D0FA98;
+}
+#an2{
+	
+	-fx-background-radius: 10 10 10 10;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-color:#D0FA98;
+}
+#an3{
+	
+	-fx-background-radius: 10 10 10 10;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-color:#D0FA98;
+}
+#an4{
+	
+	-fx-background-radius: 10 10 10 10;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-color:#D0FA98;
+}
+#an5{
+	
+	-fx-background-radius: 10 10 10 10;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-color:#D0FA98;
+}
+#an6{
+	
+	-fx-background-radius: 10 10 10 10;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-color:#D0FA98;
+}
+#an7{
+	
+	-fx-background-radius: 10 10 10 10;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-color:#D0FA98;
+}
+#an8{
+	
+	-fx-background-radius: 10 10 10 10;
+	-fx-border-radius: 10 10 10 10;
+	-fx-background-color:#D0FA98;
+}
+
+
+/*gridpane */
+#gridpane{
+	-fx-background-color:#D0FAD5;
+	-fx-text-alignment:center;
+}
+
+/*fotos */
+#img1{
+	-fx-text-alignment:center;
+	-fx-background-color:'white';
+}
+#img2{
+	-fx-text-alignment:center;
+	-fx-background-color:'white';
+}
+#img3{
+	-fx-text-alignment:center;
+	-fx-background-color:'white';
+}
+#img4{
+	-fx-text-alignment:center;
+	-fx-background-color:'white';
+}
+#img5{
+	-fx-text-alignment:center;
+	-fx-background-color:'white';
+}
+#img6{
+	-fx-text-alignment:center;
+	-fx-background-color:'white';
+}
+#img7{
+	-fx-text-alignment:center;
+	-fx-background-color:'white';
+}
+#img8{
+	-fx-text-alignment:center;
+	-fx-background-color:'white';
+}
+
+/*precios */
+#prec1{
+	-fx-font-weight:bold;
+	
+}
+#prec2{
+	-fx-font-weight:bold;
+	
+}
+#prec3{
+	-fx-font-weight:bold;
+	
+}
+#prec4{
+	-fx-font-weight:bold;
+	
+}
+#prec5{
+	-fx-font-weight:bold;
+	
+}
+#prec6{
+	-fx-font-weight:bold;
+	
+}
+#prec7{
+	-fx-font-weight:bold;
+	
+}
+#prec8{
+	-fx-font-weight:bold;
+	
+}
+/*textfields */
+#tfCant1{
+	-fx-background-color:#D0FAD5;
+	-fx-border-color:#D0FAD5;
+}
+#tfCant2{
+	-fx-background-color:#D0FAD5;
+	-fx-border-color:#D0FAD5;
+}
+#tfCant3{
+	-fx-background-color:#D0FAD5;
+	-fx-border-color:#D0FAD5;
+}
+#tfCant4{
+	-fx-background-color:#D0FAD5;
+	-fx-border-color:#D0FAD5;
+}
+#tfCant5{
+	-fx-background-color:#D0FAD5;
+	-fx-border-color:#D0FAD5;
+}
+#tfCant6{
+	-fx-background-color:#D0FAD5;
+	-fx-border-color:#D0FAD5;
+}
+#tfCant7{
+	-fx-background-color:#D0FAD5;
+	-fx-border-color:#D0FAD5;
+}
+#tfCant8{
+	-fx-background-color:#D0FAD5;
+	-fx-border-color:#D0FAD5;
+}
